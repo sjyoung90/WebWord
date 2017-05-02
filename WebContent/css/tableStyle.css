@@ -1,0 +1,30 @@
+@CHARSET "utf-8";
+
+.highlight {
+	color: #fff;
+	background-color: #000;
+	opacity: 0.15;
+}
+
+table {
+	width: 100%;
+	/*border-spacing: 0;*/
+	border-collapse: collapse;
+}
+
+td:not(.selected) ::selection {
+	background: transparent;
+}
+
+td {
+	width: 100px;
+	height: 40px;
+	padding: 7px;
+	border: 1px solid black;
+}
+
+.cellDiv {
+	
+	width: 100%;
+	height: 40px;
+}
